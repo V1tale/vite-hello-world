@@ -1,7 +1,7 @@
 <script>
 export default {
     jumbo: "AppHero",
-    Data() {
+    data() {
         return { 
             img: "Vite-Vue"
         } 
