@@ -3,14 +3,23 @@ export default {
     jumbo: "AppHero",
     data() {
         return { 
-            img: "Vite-Vue"
+            img: "Vite-Vue.png"
         } 
 
     },
 }
 </script>
 <template>
-    <img src=" `../assets/img/${img}.png`" alt="">
+    <img :src="`../img/${img}`" alt="">
 </template>
 
-<style></style>
+<style>
+img {
+    width:60%;
+}
+.container {
+    width: 80%;
+    text-align: center;
+    margin:auto;
+}
+</style>
