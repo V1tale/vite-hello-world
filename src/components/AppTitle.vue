@@ -1,8 +1,9 @@
 <script>
 export default {
     name: "AppTitle",
-    Data() {
+    data() {
         return { 
+          title: "La mia prima app con Vite!"
         } 
 
     }
@@ -10,7 +11,7 @@ export default {
 </script>
 <template>
       <div class="container">
-    <h1>"La mia prima app con Vite!"</h1>
+    <h1>{{title}}</h1>
   </div>
 </template>
 

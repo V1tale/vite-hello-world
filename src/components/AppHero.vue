@@ -10,7 +10,7 @@ export default {
 }
 </script>
 <template>
-    <img :src="`../img/${img}`" alt="">
+    <img :src="`/img/${img}`" alt="">
 </template>
 
 <style>
